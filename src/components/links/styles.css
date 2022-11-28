@@ -1,16 +1,10 @@
-
-
-.upto{
+.arrow .upto{
     animation: upto 1s  infinite alternate ;
     -webkit-animation: upto 2s  infinite  ;
     color: #F43333;
     font-size: 22px;
  display: inline-block;
-
-    
 }
-
-  
 @keyframes upto {
    0%, 100% {
         -ms-transform: translateX(0);

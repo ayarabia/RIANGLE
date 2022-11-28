@@ -25,9 +25,14 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e41c1c25;
 }
-
+/* .test{
+  border: 3px solid red;
+}
+a:hover .test{
+border: 0 !important;
+} */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

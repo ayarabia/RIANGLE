@@ -10,6 +10,10 @@ function Works() {
         <Col lg={6} className='px-0 '><WorkCard></WorkCard></Col>
         <Col lg={6} className='px-0 '><WorkCard></WorkCard></Col>
       </Row>
+      <Row >
+        <Col lg={6} className='px-0 '><WorkCard></WorkCard></Col>
+        <Col lg={6} className='px-0 '><WorkCard></WorkCard></Col>
+      </Row>
 </Container>
   )
 }

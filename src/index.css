@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
@@ -14,6 +15,7 @@ code {
 *::selection {
   background: #F43333;
   color: #fff;
+
 }
 a{
   text-decoration: none;

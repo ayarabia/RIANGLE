@@ -1,5 +1,6 @@
 .navbar-collapse {
-  flex-grow: 0 !important;
+ 
+  justify-content: end !important;
 }
 .nav-link {
   color: #151515;
@@ -12,14 +13,10 @@
 .nav-link:hover{
    background-color: #e078781f;;
 }
-.nav-link:last-child{
-   border-right:2px solid  gainsboro; 
-}
 
 .animat {
-  border: 1px solid rgba(229, 231, 235, 0.9);
-
-  animation: height 1s 1 alternate;
+  border: 1px solid gainsboro;
+ animation: height 1s 1 alternate;
   -webkit-animation: height 2s 1 alternate;
 }
 @keyframes height {
@@ -62,14 +59,28 @@
   }
 }
 
+.logo{
+ border: none;
+ 
+animation:borderAnimation 3s forwards ;
+}
+@keyframes borderAnimation {
+to{
+  padding: 40px ;
+margin-left: -20px;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+  }
+}
 .logo svg {
-  position: absolute;
+   position: absolute;
   top: 50%;
   width: 250px;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: logo 2s forwards;
   -webkit-animation: logo 2s forwards;
+
 }
 
 @keyframes logo {
@@ -78,7 +89,7 @@
     left: 50%;
   }
   50%,
-  70% {
+  70% ,80%{
     width: 50px;
     left: 50%;
   }

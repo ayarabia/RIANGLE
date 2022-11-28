@@ -6,7 +6,7 @@ function Links() {
     <div >
       <p className="d-flex justify-content-end  align-items-center animate__animated animate__fadeInTopLeft animate__delay-4s">
         <a href=""   >READ ARTICLE</a>
-        <div className="ms-5">
+        <div className="ms-5 arrow">
           <span className="upto ">
             <FiArrowRight />
           </span>
