@@ -1,0 +1,21 @@
+.load{
+    text-align: center;
+}
+.load a{
+font-size: 70px;
+color: #000000;
+border-bottom: 2px solid red;
+animation: border .2s border;
+}
+
+@keyframes border {
+  
+    0% {
+        border-bottom: 0px solid red;
+    
+      }
+     
+         100% {
+            border-bottom: 2px solid red;
+          }
+   }
