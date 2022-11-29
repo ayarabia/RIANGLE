@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 import "./styles.css";
 function Counter() {
   return (
-    <Container>
+    <Container className="position-relative">
       <div className="count">
     <CountUp
           end={100}

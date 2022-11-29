@@ -2,6 +2,10 @@
   animation: hide 1.5s forwards;
   font-size: 90px;
   color: #f43333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 
 }
 @keyframes hide {

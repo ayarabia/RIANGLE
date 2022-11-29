@@ -11,8 +11,7 @@ function NavBarCom() {
   return (
 <>
 <AnimatedCursor 
-    className="test"
-    //  color={border}
+   
     outerStyle={{
       border:`${border}`,
      width:"50px",
