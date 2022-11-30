@@ -17,10 +17,8 @@ function Links() {
             <FiChevronRight />
           </span>
         </div>
-      </p>
-     
+      </p>  
     </div>
   );
 }
-
 export default Links;

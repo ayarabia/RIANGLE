@@ -4,18 +4,18 @@ import CountUp from "react-countup";
 import "./styles.css";
 function Counter() {
   return (
-    <Container className="position-relative">
+    <div className="position-relative">
       <div className="count">
     <CountUp
           end={100}
-          className="d-flex justify-content-center align-items-center p-5"
+          className="d-flex justify-content-center align-items-center p-5 fw-bold"
         />
       </div>
-      <div className="title py-5 animate__animated animate__fadeInBottomRight animate__delay-2s">
+      <Container className="title py-5 animate__animated animate__fadeInBottomRight animate__delay-2s">
         <h1>Stories</h1>
         <p className="ps-4">from Riangle Team</p>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }
 

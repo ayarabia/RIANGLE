@@ -5,9 +5,7 @@ function Load() {
   return (
     <Container className='load py-5'>
 <a href="" >Load more</a>
-
-    </Container>
+ </Container>
   )
 }
-
 export default Load
